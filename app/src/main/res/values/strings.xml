@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- activity_splash_screen -->
+    <string name="app_name">Solid</string>
+
+    <!-- layout_onboarding_1 -->
+    <string name="onboarding_textView_title1"><b>Selamat Datang 👋</b></string>
+    <string name="onboarding_textView_body1">Nikmati kemudahan berkirim pesan di <b>Solid</b>.\n#KeepConnected</string>
+
+    <!-- activity_sign_up -->
+    <string name="signup_textView_judul">Daftar</string>
+    <string name="signup_button_signup">Daftar</string>
+    <string name="signup_textView_sudah">Sudah memiliki akun?</string>
+    <string name="signup_textView_login">Masuk</string>
+
+    <!-- activity_log_in -->
+    <string name="login_textView_judul">Masuk</string>
+    <string name="login_textView_lupa">Lupa Password</string>
+    <string name="login_button_login">Masuk</string>
+    <string name="login_textView_belum">Belum memiliki akun?</string>
+    <string name="login_textView_signup">Daftar</string>
+
+    <!-- activity_forgot_password -->
+    <string name="forgot_textView_judul">Ubah Password</string>
+    <string name="forgot_button_forgot">Ubah Password</string>
+    <string name="forgot_textView_info">Permintaan Ubah Password akan dikirimkan melalui email yang Anda masukkan diatas.</string>
+
+    <!-- activity_setting -->
+    <string name="setting_textView_keamanan">Keamanan</string>
+    <string name="setting_textView_pengunci_aplikasi_judul">Pengunci Aplikasi</string>
+    <string name="setting_textView_pemberitahuan">Pemberitahuan</string>
+    <string name="setting_textView_pengunci_notifikasi_judul">Notifikasi</string>
+    <string name="setting_textView_obrolan">Obrolan</string>
+    <string name="setting_textView_ukuran_font_judul">Ukuran Font</string>
+    <string name="setting_textView_wallpaper_judul">Wallpaper</string>
+
+    <!-- fragment_profile -->
+    <string name="profile_textView_personalisasi">Personalisasi</string>
+    <string name="profile_textView_profile_picture_judul">Foto Profil</string>
+    <string name="profile_textView_username_judul">Username</string>
+    <string name="profile_textView_status_judul">Status</string>
+    <string name="profile_textView_informasi">Informasi Pribadi</string>
+    <string name="profile_textView_email_judul">Email</string>
+    <string name="profile_textView_password_judul">Password</string>
+    <string name="profile_textView_membership">Membership</string>
+    <string name="profile_button_add_new_account">Tambahkan Akun Baru</string>
+    <string name="profile_button_logout">Log out</string>
+    <string name="profile_button_delete_account">Hapus Akun</string>
+
+    <!-- layout_edit_profile_dialog -->
+    <string name="edit_profile_textView_judul">Masukkan %s Baru</string>
+    <string name="edit_profile_batal">Batal</string>
+    <string name="edit_profile_ubah">Ubah</string>
+
+    <!-- layout_alert_dialog -->
+    <string name="alert_textView_message">Yakin ingin %s?</string>
+
+</resources>

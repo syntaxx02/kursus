@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "199488300152",
+    "project_id": "chatapp-83fbc",
+    "storage_bucket": "chatapp-83fbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199488300152:android:3b0e5df6a8f6cfe464b98d",
+        "android_client_info": {
+          "package_name": "com.cahyaa.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199488300152-ii2c6lfiecvccjra5brjaiitigdl36lu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV3z8WeXPeDEWDqUPn4obvbRYV3aNJ-Ds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199488300152-ii2c6lfiecvccjra5brjaiitigdl36lu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

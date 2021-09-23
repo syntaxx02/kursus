@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SolidTextView">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="SolidTextView.Header">
+        <item name="fontFamily">@font/sora_bold</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+    <style name="SolidTextView.Button">
+        <item name="fontFamily">@font/sora_semibold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>

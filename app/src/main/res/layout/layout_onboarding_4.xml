@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/o4"
+    android:backgroundTint="@android:color/holo_blue_light"
+    android:backgroundTintMode="multiply"
+    tools:context=".presentation.onboarding.OnboardingActivity">
+
+    <ImageView
+        android:id="@+id/onboarding_imageView_page4"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/page4" />
+
+    <ImageView
+        android:id="@+id/onboarding_imageView_image4"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="32dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onboarding_imageView_page4"
+        app:srcCompat="@drawable/voice_call" />
+
+    <TextView
+        android:id="@+id/onboarding_textView_title4"
+        style="@style/SolidTextView.Header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Lorem Ipsum"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="@+id/onboarding_imageView_image4"
+        app:layout_constraintStart_toStartOf="@+id/onboarding_imageView_image4"
+        app:layout_constraintTop_toBottomOf="@+id/onboarding_imageView_image4"
+        tools:text="Lorem Ipsum" />
+
+    <TextView
+        android:id="@+id/onboarding_textView_body4"
+        style="@style/SolidTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur\n adipiscing elit. Vivamus sodales faucibus\n dapibus."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/onboarding_textView_title4"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="@+id/onboarding_textView_title4"
+        app:layout_constraintTop_toBottomOf="@+id/onboarding_textView_title4"
+        tools:text="Lorem ipsum dolor sit amet, consectetur\nadipiscing elit. Vivamus sodales faucibus\ndapibus." />
+
+    <Button
+        android:id="@+id/onboarding_button_lanjut"
+        style="@style/SolidTextView.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_primary"
+        android:letterSpacing="0.075"
+        android:padding="10dp"
+        android:text="Lanjut"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/onboarding_textView_title4"
+        app:layout_constraintStart_toStartOf="@+id/onboarding_textView_title4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
